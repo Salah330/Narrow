@@ -1,0 +1,135 @@
+/*body*/
+body {
+position: relative;
+font-family: "Open Sans";
+}
+
+/* navbar */
+.navbar {
+	border: none;
+	background: #ffffff;
+}
+.carousel-inner>.carousel-item>img, .carousel-inner>.carousel-item>a>img {
+display: block;
+background-size: cover;
+max-width: 100%;
+line-height: 1;
+width: 100%; // Add this
+}
+/* about*/
+.about {
+	width: 100%;
+    height: auto;
+	padding: 50px 0;
+
+}
+.welcome h2{
+    font-size: 2em;
+	color: rgba(103, 98, 98, 0.9);
+	font-family: Arial;
+	font-weight: bold;
+	margin-bottom: 2%;
+	
+}
+.welcome p {
+	color: #888;
+	line-height: 1.8;
+	margin-bottom: 20px;
+}
+.about img {
+	width: 100%;
+
+}
+.about .img {
+	background-image: url('../Images/namibia-4965456_1920.jpg');
+	background-size: cover;
+	height: 440px;;
+	position: relative;
+	margin-bottom: 3%;
+	
+}
+.about .img p {
+	position: absolute;
+    bottom: 0;
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+	color: aliceblue;
+	background: rgba(0,0,0,0.5);
+	padding: 20px;
+	margin: 0;
+}
+.about .par {
+	font-size: 18px;
+	line-height: 20px;
+	color: brown;
+	align-content: center;
+}
+/*SERVICES*/
+section.service {
+	width: 100%;
+	height: auto;
+	background: url("../Images/flower-729512_1920.jpg");
+	background-attachment: fixed;
+    text-align: center;
+	background-repeat:no-repeat;
+	background-size:cover;
+
+}
+section.service p {;
+	font-size: 45px;
+	padding: 10px;
+	border: 1px solid #fff;
+	display: inline-block;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	background: rgba(0,0,0,0.3);
+	color: aliceblue;
+
+}
+/* start products */
+section.products {
+	width: 100%;
+	height: auto;
+	padding: 50px 0;
+}
+section.products img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+
+}
+
+section.products .row .col-sm-4 img {
+	padding-bottom: 20px;
+}
+section.products .row .col-sm-4 {
+
+} 
+/*about us*/
+.aboutus{
+
+	width: 100%;
+	height: auto;
+	background-color: #e8e9ea;
+	margin:30px 0;
+	padding: 40px 0;
+}
+.aboutus .row i {
+	float: left;
+	margin-right: 45px;
+	
+}
+/*start footer*/
+footer {
+	background-color: #060329;
+}
+footer i,footer p {
+	margin-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	color: #ffffff;
+	
+}
+
+
